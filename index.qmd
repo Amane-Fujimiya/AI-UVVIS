@@ -1,0 +1,5 @@
+---
+title: "AI+UVVIS"
+---
+
+Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Which is [here](content/AI_slide.qmd) and [here](content/UV_VIS.qmd). If I ever need more in the future, this will be change to include such list. 

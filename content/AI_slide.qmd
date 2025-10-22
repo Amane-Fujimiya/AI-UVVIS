@@ -1,0 +1,189 @@
+---
+title: "Introduction to AI"
+format:
+  revealjs:
+    theme: default
+    controls: false
+    center: true 
+    progress: true
+    slide-number: true
+    transition: none
+    footer: <span class="faux-block">Everything <a href="https://en.wikipedia.org/wiki/Public_domainl">PD</a>; <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en/">CC0</a> fallback.</span>
+    css: /style_js.css
+    fig-cap-location: bottom
+---
+
+Welcome. Let's get into this survey about artificial intelligence, one of the piece of technology that is usually found in majority nowadays. 
+
+---
+
+## What is artificial intelligence? 
+
+Artificial intelligence is the creation of *machine* with intents, purposes, qualities that closely resembles a construct, another creation, just as human. This definition stretches for all considerable life with intelligence, by its arbitrary meaning. 
+
+---
+
+The topic has been around ever since the old time, for example Descartes (1637)
+
+![Descartes on AI](/img_AI/Descartes.png)
+
+---
+
+Pioneers like Marvin Minsky, the godfather of AI, led the world in its shape of AI in the earlier stage of it (1940s-1960s)
+
+![The concept of layering brain - $A,B,C$-brain (Marvin Minsky, 1956)](/img_AI/Minsky_A_Brain.png)
+
+---
+
+![The **Society of Mind** - according to Marvin Minsky](/img_AI/Marvin_Society.png)
+
+---
+
+## The general idea of artificial intelligence
+
+So, what gives? What is the general idea? What can be considered the construct that can bear the role of artificial intelligence? 
+
+---
+
+![The general concept of artificial intelligence - the agent and the world](/img_AI/AI_Norvig_.png)
+
+---
+
+Using such construct, investigation can be found, and perhaps certainly, process can be deducted to be used accordingly. 
+
+---
+
+![A sophisticated reflex agent](/img_AI/AI_Norvig_1.png)
+
+---
+
+![A learning agent](/img_AI/AI_Norvig_2.png)
+
+---
+
+Per usual, this looks like a kind of mathematical modelling, and indeed it is. For structure confounding to $M$, and $S$ of the system, with $Q$ relies on the environment, we effectively make a mathematical modelling system with some added quirks - the ability to recognize, remember, 'self-process', and 'adaptation', or *learning*. Theoretically. 
+
+---
+
+## Learning
+
+One of the most important aspect of such model, for any unique application, is to think, and to be able to *learn*. This is encoded in the theory of *machine learning*. 
+
+![The construct of an ML system](/img_AI/construct_ML.png)
+
+---
+
+Here is our point: 
+
+> Machine learning can be thought of as a fundamentally powerful method for **automatic modelling**. Or, more simply said, to make "programs without being explicitly programmed". 
+
+---
+
+What does that mean? Before machine learning, mathematical modelling is static, and intrinsically rule-heavy.
+
+![The typical mathematical modelling construct](/img_AI/math_model.png)
+
+---
+
+Let's take an example. How about **population of a given world**?
+
+---
+
+Supposed the world of population $p(t)$. Then, $dp/dt$ is the time-derivative of the population over time. If, we take $dp/dt=ap$ for arbitrary $a\in \mathbb{R}$: 
+
+![The simple model of growth](/img_AI/model_1.png)
+
+---
+
+If, we introduce the concept of **birth** and **death**, then for $b(t)$ and $d(t)$,
+
+$$
+dp/dt = b(t) - d(t)\longleftarrow\begin{cases}
+            b(t) = 2 + \sin{(t)} \\
+            d(t) = 1 + 0.5 \cos{(t)}
+            \end{cases}
+$$
+
+---
+
+![The population, with arbitrary death and birth](/img_AI/model_2.png)
+
+---
+
+Machine learning's goal is to **automate** this process.
+
+> We know the differential equation, we know the functions, we just need implementation. Machine learning automate that.
+
+---
+
+![A machine learning model approximating data with the assumption of it being polynomial. Can you do better than it?](/img_AI/model4.png)
+
+---
+
+Machine learning can be considered into two main types: 
+
+- **Classical machine learning**: Using design models, like PCA, Bayesian models, and so on. Automates partially, and require still, **feature engineering** to work. 
+- **Neural network (deep) learning**: Implicitly engineers its own feature, another automation partition. Use new concepts like encoding or *representation*. 
+
+---
+
+![The architypical difference, illustrated of classical and the deep regime of AI](/img_AI/classical_deep.png)
+
+---
+
+![A tree of architectures in classical and neural designs. Note that the neural side, or deep learning, is far cleaner, per usual.](/img_AI/corpus_clas_deep.png)
+
+---
+
+The main general similarity that they exhibit is, however, the reliance on data means they must abide to the concept of *train* and *test* partitioning of data. The main reason is that data is generally **not perfect**. 
+
+![The intuition on generalization](/img_AI/generalization.png)
+
+---
+
+![The overfitting concept and resultant in errors, illustrated of the empirical and generalization learning.](/img_AI/g10.png)
+
+---
+
+Indeed, while current theory suggests **double descent** to occur, in general, per certain application, such event would not appear in general, overall. If yes, then it is also not good that much. 
+
+---
+
+![The typical training-testing partition phase of a ML models](/img_AI/typical_phase.png)
+
+---
+
+## More on deep learning
+
+Deep learning, in general, relies on the notion of the **neuron** $\mathcal{N}$, which encapsulate the ideal view of a biological neuron. 
+
+![The biological neuron](/img_AI/brainneuron1.png)
+
+---
+
+![An attempt in the old day, by Rosenblatt (1951)](/img_AI/0925_rosenblatt4.jpg)
+
+---
+
+![The artificial neuron from its biological counterpart, simplified to computation](/img_AI/artineuron.png)
+
+---
+
+Many of such components can be created and conjuncted, into the **artificial neural network (ANN)**. 
+
+![The normal feed-forward, artificial, fully-connected network.](/img_AI/artinetwork.png)
+
+---
+
+![The somewhat replica analysis on deep network and complex neural network in biological brain sections](/img_AI/consist_arti.png)
+
+---
+
+To train those networks, the technique developed per usual, is the **backpropagation** technique. 
+
+![Typical backpropagation on normal network.](/img_AI/backprop.png)
+
+--- 
+
+Thank you. (Reference, well, just ask). 
+

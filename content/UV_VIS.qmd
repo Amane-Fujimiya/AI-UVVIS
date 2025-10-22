@@ -1,0 +1,78 @@
+---
+title: "UV-VIS Spectroscopy"
+format:
+  revealjs:
+    theme: dracula
+    center: true 
+    controls: false
+    progress: true
+    slide-number: true
+    footer: <span class="faux-block">Everything <a href="https://en.wikipedia.org/wiki/Public_domainl">PD</a>; <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en/">CC0</a> fallback.</span>
+    css: /style_js.css
+    fig-cap-location: bottom
+---
+
+This is a simple theoretical inquiry on UV-VIS, which is created by the request of certain member in the research team about the spectroscopic theoretical interpretation. 
+
+The main approach would then to explain what *the UV-VIS spectrum do*, what information to encode, and the theoretical phenomenon behind it. 
+
+---
+
+## UV-Visible radiation
+
+![The electromagnetic spectrum, with the visible spectrum extended to various colours. Visible light is respectively $380-780\mathrm{mm}$, and ultraviolet in the range of $10-380\mathrm{mm}$ (both far and near ultraviolet)](/img/espectrum.png)
+
+---
+
+UV-VIS spectrum range is mainly used for analysis on absorption behaviours of electromagnetic radiation of materials. Specifically, while Raman spectroscopy employs selection rules or virtual quantum state transition, UV-VIS range correlates to absorption-transition of electronic levels of a particular molecule. 
+
+::: {.callout-note}
+### Why not single atom? 
+
+Electronic transition of singular atoms is often the **core** electrons that go from one state $E_{1}$ to another state $E_{2}$. Such discrete state is often very tightly bounded, hence requires energy up to high-extreme energy radiations (VUV or XUV range) to penetrate. In covalent bonds, for example, the electron in bonding is far more free, and hence such dynamic allows for observations of behaviours in molecular structure of lower-energy electromagnetic radiation. 
+:::
+
+---
+
+Energy of a given system is given by 
+
+$$
+E_{total} = E_{electronic} + E_{vibrational} + E_{rotational}
+$$
+With the order of energy magnitude being 
+$$
+E_{electronic} < E_{vibrational} < E_{rotational}
+$$
+
+---
+
+Most of the time, it is the transition between **electronic energy level** that is observed of particular wavelength of UV-VIS incident light. However, for complex molecule structure, **vibrational/rotational energy level** are also superimposed on the electronic energy level. 
+
+Hence, while electronic transition level is narrow and sparse, Rotational and vibrational energy levels, thus the underlying mechanical details, *broaden* the band. 
+
+---
+
+![Broad spectrum of electronic transitions states in UV-visible spectra of molecules, which is tightly packed.](/img/broadspectrum.png)
+
+---
+
+### Origin of UV-Visible spectra
+
+UV-VIS spectra come from energy transition between molecules, and it comes from the energy transition between them. A brief description of the event is then required.
+
+When light passes through or is reflected from a sample, the amount of light absorbed is the difference between the incident radiation ($I_{0}$) and the transmitted radiation ($I$). The amount of light absorbed is expressed as either transmittance or absorbance. (More information of this mechanics can be found in [here](https://nanoqam.ca/wiki/lib/exe/fetch.php?media=an_introduction_to_ultraviolet-visible_molecular_absorption_spectrometry.pdf))
+
+---
+
+The Bouguer-Lambert-Beer law forms the mathematical-physical basis of light-absorption measurements on gases and solution in the UV-VIS and IR-region: 
+
+$$
+\mathrm{lg}\left(\frac{I_{0}}{I}\right) = \mathrm{lg}\left(\frac{100}{T(\%)}\right) \equiv A_{\tilde{\nu}}= \epsilon_{\tilde{\nu}}\cdot c \cdot d
+$$
+Where $I$ is the path length, $\epsilon_{\tilde{\nu}}$ being the molecular absorptivity (extinction coefficient), and $A$ is the absorbance. 
+
+---
+
+Such absorption is quantized, by quantum law, hence with suitable
+
+---
