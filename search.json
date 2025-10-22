@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI+UVVIS",
+    "section": "",
+    "text": "Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Which is here and here. If I ever need more in the future, this will be change to include such list."
+  },
+  {
+    "objectID": "content/AI_slide.html#what-is-artificial-intelligence",
+    "href": "content/AI_slide.html#what-is-artificial-intelligence",
+    "title": "Introduction to AI",
+    "section": "What is artificial intelligence?",
+    "text": "What is artificial intelligence?\nArtificial intelligence is the creation of machine with intents, purposes, qualities that closely resembles a construct, another creation, just as human. This definition stretches for all considerable life with intelligence, by its arbitrary meaning."
+  },
+  {
+    "objectID": "content/AI_slide.html#the-general-idea-of-artificial-intelligence",
+    "href": "content/AI_slide.html#the-general-idea-of-artificial-intelligence",
+    "title": "Introduction to AI",
+    "section": "The general idea of artificial intelligence",
+    "text": "The general idea of artificial intelligence\nSo, what gives? What is the general idea? What can be considered the construct that can bear the role of artificial intelligence?"
+  },
+  {
+    "objectID": "content/AI_slide.html#learning",
+    "href": "content/AI_slide.html#learning",
+    "title": "Introduction to AI",
+    "section": "Learning",
+    "text": "Learning\nOne of the most important aspect of such model, for any unique application, is to think, and to be able to learn. This is encoded in the theory of machine learning.\n\nThe construct of an ML system"
+  },
+  {
+    "objectID": "content/AI_slide.html#more-on-deep-learning",
+    "href": "content/AI_slide.html#more-on-deep-learning",
+    "title": "Introduction to AI",
+    "section": "More on deep learning",
+    "text": "More on deep learning\nDeep learning, in general, relies on the notion of the neuron \\(\\mathcal{N}\\), which encapsulate the ideal view of a biological neuron.\n\nThe biological neuron"
+  },
+  {
+    "objectID": "content/UV_VIS.html#uv-visible-radiation",
+    "href": "content/UV_VIS.html#uv-visible-radiation",
+    "title": "UV-VIS Spectroscopy",
+    "section": "UV-Visible radiation",
+    "text": "UV-Visible radiation\n\nThe electromagnetic spectrum, with the visible spectrum extended to various colours. Visible light is respectively \\(380-780\\mathrm{mm}\\), and ultraviolet in the range of \\(10-380\\mathrm{mm}\\) (both far and near ultraviolet)"
+  }
+]

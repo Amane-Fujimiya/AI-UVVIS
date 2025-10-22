@@ -1,0 +1,22 @@
+p strong, li strong {
+  color: #ca5404;
+  font-weight: 800;
+}
+
+:root {
+  --teal-italic: #2392a8;
+}
+
+/* Global rule: make emphasis show as desaturated teal (normal weight italic) */
+em, i, .italic {
+  color: var(--teal-italic);
+  font-style: italic;
+  font-weight: 400; /* keep italics from becoming heavy */
+}
+
+
+/* If text is both bold and italic, prefer the bold color/weight (so bold orange still wins) */
+strong em, b em, em strong, em b, strong i, b i, i strong, i b {
+  color: inherit;       /* inherit color from the strong/b element */
+  font-weight: inherit; /* inherit the strong weight */
+}
