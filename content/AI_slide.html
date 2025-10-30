@@ -292,6 +292,121 @@ dp/dt = b(t) - d(t)\longleftarrow\begin{cases}
 <img data-src="..\img_AI/backprop.png" class="r-stretch quarto-figure-center"><p class="caption">Typical backpropagation on normal network.</p></section>
 <section class="slide level2 center">
 
+<h3 id="flavour-of-deep-learning-models">Flavour of deep learning models</h3>
+<p>Cutting-edge research and applications utilize <em>deep learning model</em> the most. It is hence imperative we review certain flavour of them.</p>
+</section>
+<section class="slide level2 center">
+
+<p>For image processing, the most widely use is <strong>convolutional neural network</strong> (CNN) and their variations</p>
+
+<img data-src="..\img_AI/CNN.png" class="r-stretch quarto-figure-center"><p class="caption">A <em>LeNet</em>, by Yann Le Cun, the first ever convolutional neural network</p></section>
+<section class="slide level2 center">
+
+<p>The main mechanism is focused on the <em>convolutional layer unit</em>, of which compresses information on an image mesh.</p>
+
+<img data-src="..\img_AI/CNN_conv.png" class="r-stretch quarto-figure-center"><p class="caption">The convolutional layer on a <span class="math inline">\(3\times 3\)</span> image</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/CNN_result.png" class="r-stretch quarto-figure-center"><p class="caption">Result of CNN with six different channels.</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/CNN_A.png" class="r-stretch quarto-figure-center"><p class="caption">Application of CNN on face matching</p></section>
+<section class="slide level2 center">
+
+<p>In a more modern, requirement of <span class="math inline">\(1-1\)</span> correspondence between spatial information (since CNN <em>compresses</em> spatial pixel), <strong>fully-connected CNN</strong> is there to solve such problem.</p>
+
+<img data-src="..\img_AI/FCN.png" class="r-stretch quarto-figure-center"><p class="caption">A fully connected convolutional network</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/FCN_r.png" class="r-stretch quarto-figure-center"><p class="caption">Result from FCN on classification. For these test images, we print their cropped areas, prediction results, and ground-truth row by row.</p></section>
+<section class="slide level2 center">
+
+<p>Moving on, if we want the network to facilitate <em>memory</em>, such idea can be done using <strong>Recurrent Neural Network</strong> (RNN)</p>
+
+<img data-src="..\img_AI/RNN.png" class="r-stretch quarto-figure-center"><p class="caption">RNN with hidden states</p></section>
+<section class="slide level2 center">
+
+<p>They are mostly used in <em>language processing</em>:</p>
+
+<img data-src="..\img_AI/RNN1.png" class="r-stretch quarto-figure-center"><p class="caption">A recurrent network for word processing.</p></section>
+<section class="slide level2 center">
+
+<h3 id="long-short-term-memory-lstm">Long Short-Term Memory (LSTM)</h3>
+
+<img data-src="..\img_AI/LSTM1.png" class="r-stretch quarto-figure-center"><p class="caption">Gated memory cell</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/LSTM2.png" class="r-stretch quarto-figure-center"><p class="caption">Partially incorporated gated LSTM structure</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/LSTM3.png" class="r-stretch quarto-figure-center"><p class="caption">Memory cell incorporation</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/LSTM4.png" class="r-stretch quarto-figure-center"><p class="caption">Hidden state incorporation into LSTM</p></section>
+<section class="slide level2 center">
+
+<h3 id="gated-recurrent-unit-gru">Gated Recurrent Unit (GRU)</h3>
+
+<img data-src="..\img_AI/GRU1.png" class="r-stretch quarto-figure-center"><p class="caption">Illustrative GRU <em>reset-update</em> mechanism</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/GRU2.png" class="r-stretch quarto-figure-center"><p class="caption">The concept of <em>candidate state</em> addition for main flow of GRU.</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/GRU3.png" class="r-stretch quarto-figure-center"><p class="caption">Hidden state addition into GRU, finalizing it.</p></section>
+<section class="slide level2 center">
+
+<h3 id="attention-networks-transformer-architecture">Attention networks (Transformer architecture)</h3>
+
+<img data-src="..\img_AI/ATTN.png" class="r-stretch quarto-figure-center"><p class="caption">An attention layer form</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/TNN.png" class="r-stretch quarto-figure-center"><p class="caption">A structure of Transformer architecture</p></section>
+<section class="slide level2 center">
+
+<p>It can also be incorporated into computer vision:</p>
+
+<img data-src="..\img_AI/CNN_T.png" class="r-stretch quarto-figure-center"><p class="caption">Computer vision plus Transformer.</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/TNN2.png" class="r-stretch quarto-figure-center"><p class="caption">Alternative, parallel CNN-Transformer hybrid</p></section>
+<section class="slide level2 center">
+
+<h3 id="transfer-learning">Transfer learning</h3>
+<p>Usually, structures increase <em>exponentially</em> of the computational cost. We can then use <em>transfer learning</em> for it.</p>
+
+<img data-src="..\img_AI/TLEARN.png" class="r-stretch quarto-figure-center"><p class="caption">The transfer learning (TL) approach.</p></section>
+<section class="slide level2 center">
+
+<p>The stack includes <em>pre-training</em>, and <em>fine-tuning</em>, both of which serves different <strong>scalability criteria</strong></p>
+
+<img data-src="..\img_AI/PTFT.png" class="r-stretch quarto-figure-center"><p class="caption">The <em>pre-training</em> and <em>finetuning</em> methods</p></section>
+<section class="slide level2 center">
+
+<h3 id="generative-adversarial-network-gan">Generative adversarial network (GAN)</h3>
+<p>GAN is introduced to <em>back-forth verification</em> between two status - the <em>model</em> and its <em>adversarial</em> misinformation form.</p>
+
+<img data-src="..\img_AI/GAN1.png" class="r-stretch quarto-figure-center"><p class="caption">GAN architectural consideration.</p></section>
+<section class="slide level2 center">
+
+
+<img data-src="..\img_AI/GAN2.png" class="r-stretch quarto-figure-center"><p class="caption">GAN result from discriminator and generator</p></section>
+<section class="slide level2 center">
+
+<p>There are more details that I left out, including <em>reinforcement learning</em>, <em>online learning</em>, more advanced <em>learning scheme</em> (unsupervised, semi-supervised), more sophisticated learning methods like genetic algorithm, physics-inferred learning mechanism or approximation, classical algorithmic approaches, Bayesian statistics, spatial statistics and application, concentration inequalities, <em>network-in-network</em> architecture, and so on (encoder-decoder architecture too). But those are too long for the presentation, and I opt for a clearer understanding in later presentations.</p>
+</section>
+<section class="slide level2 center">
+
 <p>Thank you. (Reference, well, just ask).</p>
 
 
@@ -581,7 +696,7 @@ dp/dt = b(t) - d(t)\longleftarrow\begin{cases}
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp('/' + window.location.host + '/');
+            var filterRegex = new RegExp("https:\/\/Amane-Fujimiya\.github\.io\/AI-UVVIS\/");
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
