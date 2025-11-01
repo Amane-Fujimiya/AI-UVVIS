@@ -2,9 +2,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "AI+UVVIS",
+    "title": "The presentation slider",
     "section": "",
-    "text": "Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Which is here and here. If I ever need more in the future, this will be change to include such list."
+    "text": "Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Which is here and here. If I ever need more in the future, this will be change to include such list.\n\nOkay, serious talk. It has been repurposed. I’ll just leave them up there. I know it is going to happen, but damn it happened fast. Anyway. I renamed it, and from now on, presentations will be uploaded here, until the space runs out.\n\nRaman research presentation - here"
+  },
+  {
+    "objectID": "content/Raman.html#preliminary",
+    "href": "content/Raman.html#preliminary",
+    "title": "Raman spectroscopy research",
+    "section": "Preliminary",
+    "text": "Preliminary\nFirst, we have several resources for you to look into. For now, we have this essay from me that talk about such issue clearly, and a few more sources that you can refer to. For tools related to Raman spectroscopy and spectroscopy in general, look into this post."
+  },
+  {
+    "objectID": "content/Raman.html#the-topic-of-raman-spectroscopy",
+    "href": "content/Raman.html#the-topic-of-raman-spectroscopy",
+    "title": "Raman spectroscopy research",
+    "section": "The topic of Raman Spectroscopy",
+    "text": "The topic of Raman Spectroscopy\nIt is widely considered for spectroscopy, and Raman spectroscopy specifically, to be an important field of study and tools of analysis. The need for accurate detection, material fingerprinting, non-destructive probing, drug detections, medicine and pathological diagnosis, and various on-field examination requires tools of Raman spectroscopy and its properties in major applications.\nWith that, comes of great importances in understanding Raman scattering itself, for analysis and manipulation of Raman data received from the process and measurements."
+  },
+  {
+    "objectID": "content/Raman.html#organization",
+    "href": "content/Raman.html#organization",
+    "title": "Raman spectroscopy research",
+    "section": "Organization",
+    "text": "Organization\nWe expected to finish this by late-March, early-April 2026. So counting from November, it will be around six months of development and writing.\nFor development per-week basis, we expect to use around 6–10 hours a week, depends on the time available to individual members."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About…",
+    "section": "",
+    "text": "About what. I don’t know. I am no brain."
   },
   {
     "objectID": "content/AI_slide.html#what-is-artificial-intelligence",
