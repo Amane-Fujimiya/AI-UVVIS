@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "The presentation slider",
     "section": "",
-    "text": "Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Which is here and here. If I ever need more in the future, this will be change to include such list.\n\nOkay, serious talk. It has been repurposed. I’ll just leave them up there. I know it is going to happen, but damn it happened fast. Anyway. I renamed it, and from now on, presentations will be uploaded here, until the space runs out.\n\nRaman research presentation - here"
+    "text": "Small site containing two slides - one about AI, one about UV-VIS spectroscopy. Might be updated in the future (now did) to incorporate much greater reposition.\n\nOkay, serious talk. It has been repurposed. I’ll just leave them up there. I know it is going to happen, but damn it happened fast. Anyway. I renamed it, and from now on, presentations will be uploaded here, until the space runs out.\n\nRaman research presentation - here\nThe AI slide - here\nThe UV-VIS slide - here\nThe podcast - here."
   },
   {
     "objectID": "content/Raman.html#preliminary",
@@ -26,13 +26,6 @@
     "title": "Raman spectroscopy research",
     "section": "Organization",
     "text": "Organization\nWe expected to finish this by late-March, early-April 2026. So counting from November, it will be around six months of development and writing.\nFor development per-week basis, we expect to use around 6–10 hours a week, depends on the time available to individual members."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About…",
-    "section": "",
-    "text": "About what. I don’t know. I am no brain."
   },
   {
     "objectID": "content/AI_slide.html#what-is-artificial-intelligence",
@@ -61,6 +54,69 @@
     "title": "Introduction to AI",
     "section": "More on deep learning",
     "text": "More on deep learning\nDeep learning, in general, relies on the notion of the neuron \\(\\mathcal{N}\\), which encapsulate the ideal view of a biological neuron.\n\nThe biological neuron"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About…",
+    "section": "",
+    "text": "About what. I don’t know. I am no brain."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#introduction",
+    "href": "content/podcast_tmra.html#introduction",
+    "title": "Deep Topiく",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to the deep topik discussion board for today’s ‘podcast’. We are going over a few topics for analysis, debates, and so on, with the speaker and the audiences."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#da-topic",
+    "href": "content/podcast_tmra.html#da-topic",
+    "title": "Deep Topiく",
+    "section": "Da Topic",
+    "text": "Da Topic\nThe topic revolves around, mainly:\n\nAI, Intelligence, what makes human a “human”, a thesis of (How to build a conscious machine., see in here) relevant position, questions of self in correlation to machines, of the models of life and human uses.\nSociological issues and histories.\n\nIn between sessions, it is basically ‘free-talk’, until the justification is made. Within each section, we both discuss, and answers questions from the audiences. The time is separated into debate time and wrap-up time accordingly."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#topic-1.-artificial-intelligence",
+    "href": "content/podcast_tmra.html#topic-1.-artificial-intelligence",
+    "title": "Deep Topiく",
+    "section": "Topic 1. Artificial intelligence",
+    "text": "Topic 1. Artificial intelligence\nThe first topic is indeed, about artificial intelligence"
+  },
+  {
+    "objectID": "content/podcast_tmra.html#section",
+    "href": "content/podcast_tmra.html#section",
+    "title": "Deep Topiく",
+    "section": "\n ",
+    "text": "S5 - In the end\n\nConsidering the push to AGI, what do you think of it? Is it feasible?\nWhat we are missing?\nWhat can you recollect from the conversation toward human versus machines? Or any ‘different stuff’?\nAre you afraid that you are just ‘soulless’?"
+  },
+  {
+    "objectID": "content/podcast_tmra.html#topic-2-da-methematiks",
+    "href": "content/podcast_tmra.html#topic-2-da-methematiks",
+    "title": "Deep Topiく",
+    "section": "Topic 2: Da Methematiks",
+    "text": "Topic 2: Da Methematiks\nLet’s move on to the subject everyone hates: meth."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#topic-3.-da-model",
+    "href": "content/podcast_tmra.html#topic-3.-da-model",
+    "title": "Deep Topiく",
+    "section": "Topic 3. Da Model",
+    "text": "Topic 3. Da Model\nFighting back against stuff."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#da-free-roam",
+    "href": "content/podcast_tmra.html#da-free-roam",
+    "title": "Deep Topiく",
+    "section": "Da free-roam",
+    "text": "Da free-roam\nWell, the secondary flow is here! We would be talking about sociological issues and certain connections to histories, and any others, that is, including\n\nHuman psychology.\nEconomic issues.\nWhat the heck is geopolitics? Why you even fight for lands?\nTell us about your education stuff and why you hate it or love it (lol).\nIs mental health real?\nShould we throw all homeless people out? (Jokingly, but seriously no)\nThe society etc.\nQuery your own questions."
+  },
+  {
+    "objectID": "content/podcast_tmra.html#da-end",
+    "href": "content/podcast_tmra.html#da-end",
+    "title": "Deep Topiく",
+    "section": "Da end",
+    "text": "Da end\nThanks a lot guys, for coming here!"
   },
   {
     "objectID": "content/UV_VIS.html#uv-visible-radiation",
